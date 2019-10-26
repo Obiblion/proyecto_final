@@ -1,25 +1,14 @@
 \documentclass{article}
 \usepackage[utf8]{inputenc}
-\usepackage[spanish]{babel}
+\usepackage[spanish, es-tabla]{babel}
 \usepackage{hyperref}
 \usepackage{cite} 
 \usepackage[pdftex]{graphicx}
-%\newcommand\keywords[1]%
-%{\begin{flushleft}
-%		\let\and\\%
-%		\textbf{Keywords:}\\
-%		#1
-%	\end{flushleft}%
-%}
+
 
 \title{Plataforma microfluídicas capilares.\\Una buena combianción.}
 \author {Miguel M Erenas, Fermin Capitán Vallvey e Ignacio de Orbe-Payá\\
 Dpto. Química Analítica. Universidad de Granada}
-
-
-% Hint: \title{what ever}, \author{who care} and \date{when ever} could stand 
-% before or after the \begin{document} command 
-% BUT the \maketitle command MUST come AFTER the \begin{document} command! 
 
 
 
@@ -30,10 +19,10 @@ Dpto. Química Analítica. Universidad de Granada}
 URL repositorio: \url{https://github.com/Obiblion/proyecto_final}\\
 Dentro de los dispositivos Point-of-Care (POC), los sensores microfluídicos se caracterizan por utilizar pequeños volúmenes tanto de muestra como de reactivos necesarios para acometer su función. Existen dispositivos microfluídicos que utilizan diferentes materiales como soporte, que los dotan de una serie de características específicas. El material más utilizado en la actualidad es el papel, aunque recientemente se están comenzando a usar nuevos soportes como hilo o tela de algodón.  
 \end{abstract}
+\textbf{Keywords}: Smaprtphone, $\mu$PAD, $\mu$CAD y $\mu$TAD
 
 
 
-\keywords{Smaprtphone \and $\mu$PAD \and $\mu$CAD \and $\mu$TAD}
 	
 \section{Introducción}
 Desde los primeros artículos que aparecieron en 2008\cite{Abe2008,Martinez2010} ha ido aumentando el interés por las plataformas capilares basadas en papel, hilo o tela. Estos dispositivos que no requieren soporte instrumental, son básicamente desechables y de un solo uso, presentan un enorme potencial de aplicación para la realización de medidas químicas a muy bajo coste compatibles con procesamiento TIC de las señales utilizando herramientas como smartphones.\\
@@ -42,16 +31,48 @@ El uso de papel tiene gran número de ventajas siendo una de las principales el 
  
 A pesar de ser el papel, al igual que la tela, un soporte que puede funcionalizarse con facilidad, presenta el inconveniente de la definición de canales y la dificultad de combinar diferentes tipos de papeles para llevar a cabo las operaciones analíticas necesarias. La búsqueda de nuevos materiales ha conducido al empleo de hilos. Debido a su estructura, formada por un conjunto de hebras helicoidalmente enrolladas, es posible el avance de las disoluciones de muestras y reactivos hasta la zona de detección debido a procesos de capilaridad en los espacios inter e intrafibras así como por el lumen\cite{Banerjee2013}. Por otra parte, el hilo permite la inmovilización de reactivos de diverso tipo\cite{Lu2015}. Aunque en principio el hilo es un soporte similar al papel, presenta una serie de ventajas diferenciales\cite{Nilghaz2013} pues no es necesario definir un camino a seguir como ocurre en papel y su flexibilidad y resistencia permite una mayor versatilidad y la posibilidad de diseñar sistemas 3D. Por otra parte, permite diseñar sistemas con hilos de diferente tipo, desde hidrofílicos como algodón hasta hidrofóbicos como seda. Por último, el menor volumen de muestra y reactivos necesarios junto el menor precio de los hilos respecto a papel, lo convierte en una alternativa de interés.\\
 
-El uso de hilo como soporte para sistemas microfluídicos se propuso a finales de 2010\cite{Li2010} y desde entonces han aparecido no más de 40 artículos que han comenzado a desarrollar el concepto y establecer las características microfluídicas del soporte\cite{Ballerini2011}.
+El uso de hilo como soporte para sistemas microfluídicos se propuso a finales de 2010\cite{Li2010} y desde entonces han aparecido no más de 40 artículos (Tabla\ref{tabla:biblio}) que han comenzado a desarrollar el concepto y establecer las características microfluídicas del soporte\cite{Ballerini2011}.
+\begin{table}
+	\centering
+	\caption{Artículos publicados en los últimos años de dispositivos microfluídicos basados en papel, hilo y tela.}
+	\label{tabla:biblio}
+	
+\begin{tabular}{|c|c|c|c|}
+	\hline 
+	Año & $\mu$PAD & $\mu$CAD & $\mu$TAD \\ 
+	\hline 
+	2019 & 177 & 6 & 3 \\ 
+	\hline 
+	2018 & 255 & 16 & 4 \\ 
+	\hline 
+	2017 & 213 & 7 & 6 \\ 
+	\hline 
+	2016 & 179 & 6 & 4 \\ 
+	\hline 
+	2015 & 155 & 5 & 6 \\ 
+	\hline 
+	2014 & 130 & 6 & 1 \\ 
+	\hline 
+	2013 & 98 & 5 & 0 \\ 
+	\hline 
+	2012 & 65 & 5 & 2 \\ 
+	\hline 
+	2011 & 27 & 3 & 1 \\ 
+	\hline 
+	2010 & 34 & 2 & 0 \\ 
+	\hline 
+	2009 & 10 & 0 & 0 \\ 
+	\hline 
+	2008 & 5 & 0 & 0 \\ 
+	\hline 
+\end{tabular} 
+\end{table}
 
 \section{Fabricación del dispositivo}
 
 Para la preparación de los dispositivos microfluídicos en papel ($\mu$PAD) o en hilo ($\mu$TAD) hay que diseñar, en primer lugar, tanto el dispositivo como el accesorio en el que se va a situar, de forma que permita utilizarlo de forma sencilla y reproducible. El diseño debe considerar el área de recepción, los canales de transporte o separación y las áreas de detección, lo que dependerá del objetivo buscado con el dispositivo, el número de analitos a determinar, el número de réplicas, el volumen de muestra disponible, las operaciones analíticas a incluir y la química de reconocimiento a emplear.\\
 
 Se han descrito diversas estrategias para la fabricación de dispositivos $\mu$PAD que se pueden resumir en dos: 1) por formación de barreras hidrofóbicas que delimiten los canales por deposición de materiales hidrofóbicos, así por bloqueo físico de poros (fotolitografia), por deposición de agentes hidrofobizantes (cera) o por modificación química de la celulosa (alquil cetena dímero) (Figura \ref{fig:papel}); 2) por recorte físico del papel con un plotter de corte o con un láser, obviando así la necesidad de construir canales\cite{Cate2015} (Figura \ref{fig:papel}).\\
-
-
-
 
 
 %figura 1
@@ -89,10 +110,9 @@ Se ha iniciado el estudio de nuevos soportes para dispositivos microfluídicos c
 \label{fig:hilo}
 \end{figure}
 
-
 \section{Químicas de reconocimiento}
 Se han utilizado diversas químicas de reconocimiento inmovilizadas en los dispositivos microfluídicos. En ocasiones se basan en reacciones bien conocidas. Este es el caso del dispositivo $\mu$PAD para la determinación simultánea de nitrito y pH en aguas naturales basado en la reacción de Griess y dos indicadores de pH, todos ellos inmovilizados por adsorción en tres áreas replicadas para nitrito y dos para cada uno de los indicadores, retenidos en la celulosa en este último caso como pares iónicos con sales de amonio cuaternario. A partir de 30 $\mu$l de agua problema depositados en la zona de muestreo se alcanzan todas las áreas permitiéndose el análisis a partir de una imagen del $\mu$PAD\cite{Lopez-Ruiz2014}.\\
-Una nueva reacción para nitrito fue ensayada en un $\mu$PAD tipo árbol basado en s-dihidrotetrazina cuya oxidación por ácido nitroso formado a partir de ácido cítrico inmovilizado sobre el papel origina un color rosa. El dispositivo es estable durante 21 días protegido de la luz\cite{Ortiz-Gomez2016}.\\
+Una nueva reacción para nitrito fue ensayada en un $\mu$PAD tipo árbol basado en s-dihidrotetrazina cuya oxidación por ácido nitroso formado a partir de ácido cítrico inmovilizado sobre el papel origina un color rosa. El dispositivo es estable durante 21 días protegido de la luz.\\
 
 %figura 4
 \begin{figure}[h]
@@ -106,7 +126,6 @@ Otra química utilizada se basa en compuestos luminiscentes, en concreto carbon 
  
 El uso de Cdots en soporte papel presenta el inconveniente de que son arrastrados por la muestra originando una distribución irregular de la señal. El problema se resuelve mediante la unión covalente de los Cdots al papel a través de la química de vinilsulfonas, basada en una adición de Michael a grupos hidroxilo de la celulosa. El papel funcionalizado con Cdots se ha utilizado para la determinación de Cu$^{2+}$ fundada en la atenuación de luminiscencia que este origina. Una segunda estrategia se basa en la atenuación de la luminiscencia por efecto de átomo pesado, en concreto haciendo reaccionar el papel con Cdots inmovilizadas con ácido yodoacético, la cual se recupera por reacción con el analito glutatión.
 
-
 %figura 5
 \begin{figure}[h]
 	%\includegraphics{PAD.jpg}
@@ -114,9 +133,10 @@ El uso de Cdots en soporte papel presenta el inconveniente de que son arrastrado
 	\label{fig:micro}
 \end{figure}
 
-En el caso de dispositivos$\mu$TAD, una de las químicas de reconocimiento utilizadas han sido las basadas en mecanismo ionóforo-cromoionóforo. Este mecanismo exige la inclusión de una membrana hidrófoba que imponga la condición de electroneutralidad requerida para que el reconocimiento de la especie buscada por el ionóforo (así éter dibenzo18-corona-6 para potasio\cite{Erenas2016} o calix[4]pirrol aril sustituido para creatinina\cite{erenas2019}) transcurra paralelo a la disociación del indicador de pH presente en la membrana. Para fabricar dicha membrana se añade sobre el hilo un volumen muy pequeño, del orden de 0,5 $\mu$L, de una disolución diluida conteniendo los reactivos necesarios que al evaporar el disolvente origina una fina red de filamentos (Figura \ref{fig:micro}).\\
+En el caso de dispositivos$\mu$TAD, una de las químicas de reconocimiento utilizadas han sido las basadas en mecanismo ionóforo-cromoionóforo. Este mecanismo exige la inclusión de una membrana hidrófoba que imponga la condición de electroneutralidad requerida para que el reconocimiento de la especie buscada por el ionóforo (así éter dibenzo18-corona-6 para potasio\cite{Erenas2016} o calix[4]pirrol aril sustituido para creatinina) transcurra paralelo a la disociación del indicador de pH presente en la membrana. Para fabricar dicha membrana se añade sobre el hilo un volumen muy pequeño, del orden de 0,5 $\mu$L, de una disolución diluida conteniendo los reactivos necesarios que al evaporar el disolvente origina una fina red de filamentos (Figura \ref{fig:micro}).\\
 
 La principal ventaja del uso de hilo de algodón como soporte para químicas ionóforo-cromoionóforo es que los tiempos de equilibrado, y por tanto de análisis, son sustancialmente menores que cuando se trabaja con la misma química en membrana, pasando de 3 minutos a 60 y 30 segundos, respectivamente, para potasio y creatinina, debido al aumento de superficie de la red de filamentos sensores en el hilo. Por otra parte, el volumen de muestra necesario es muy pequeño y, al incluir el tampón en el propio hilo, la muestra lo redisuelve y ajusta el pH. \\
+
 El pequeño tiempo de reacción en hilo se ha observado en otras ocasiones como es el caso del dispositivo enzimático para la determinación de glucosa en sangre total una de cuyas principales novedades es el solo necesitar un minuto frente a los 10-15 minutos habituales de otros dispositivos colorimétricos, así como el permitir la separación del plasma de las partículas formes.\\
 
 Una última estrategia en el uso de $\mu$TAD permite llevar a cabo la determinación electroquimioluminiscente de 2-dibutilaminoetanol. Para ello, se inmoviliza tris(2,2'-bipiridina) rutenio (III) en hilo de grosor dependiente de la cantidad necesaria para el análisis. Dicho hilo va laminado sobre la zona de trabajo de una celda electroquímica serigrafiada a la que se permite llegar la muestra mediante un hilo auxiliar (Figura \ref{fig:hilo}D).\\
