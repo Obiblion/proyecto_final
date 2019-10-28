@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.6)  26 OCT 2019 22:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.6)  29 OCT 2019 00:37
 entering extended mode
 **./proyecto_final.tex
 (proyecto_final.tex
@@ -308,6 +308,75 @@ Underfull \hbox (badness 10000) in paragraph at lines 75--76
 
  []
 
+! Undefined control sequence.
+\Ginclude@graphics ...\Ginput@path \set@curr@file 
+                                                  {#1}\edef \uq@curr@file {\...
+l.80 \includegraphics[width=\textwidth]{papel}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Ginclude@graphics ...e \expandafter {\@curr@file 
+                                                  }}\expandafter \filename@p...
+l.80 \includegraphics[width=\textwidth]{papel}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \unquote@name 
+                              
+l.80 \includegraphics[width=\textwidth]{papel}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.80 \includegraphics[width=\textwidth]{papel}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.80 \includegraphics[width=\textwidth]{papel}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `papel' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.80 \includegraphics[width=\textwidth]{papel}
+                                              
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 85--86
 
@@ -329,6 +398,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 91--92
  []
 
 [3]
+! Undefined control sequence.
+\Ginclude@graphics ...\Ginput@path \set@curr@file 
+                                                  {#1}\edef \uq@curr@file {\...
+l.95 \includegraphics[width=\textwidth]{moneda}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Ginclude@graphics ...e \expandafter {\@curr@file 
+                                                  }}\expandafter \filename@p...
+l.95 \includegraphics[width=\textwidth]{moneda}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \unquote@name 
+                              
+l.95 \includegraphics[width=\textwidth]{moneda}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.95 \includegraphics[width=\textwidth]{moneda}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.95 \includegraphics[width=\textwidth]{moneda}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `moneda' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.95 \includegraphics[width=\textwidth]{moneda}
+                                               
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 100--101
 
  []
@@ -343,12 +482,154 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
 
  []
 
+! Undefined control sequence.
+\Ginclude@graphics ...\Ginput@path \set@curr@file 
+                                                  {#1}\edef \uq@curr@file {\...
+l.108 \includegraphics[width=\textwidth]{hilo}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Ginclude@graphics ...e \expandafter {\@curr@file 
+                                                  }}\expandafter \filename@p...
+l.108 \includegraphics[width=\textwidth]{hilo}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \unquote@name 
+                              
+l.108 \includegraphics[width=\textwidth]{hilo}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.108 \includegraphics[width=\textwidth]{hilo}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.108 \includegraphics[width=\textwidth]{hilo}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `hilo' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 \includegraphics[width=\textwidth]{hilo}
+                                              
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 114--116
 
  []
 
 [4]
+! Undefined control sequence.
+\Ginclude@graphics ...\Ginput@path \set@curr@file 
+                                                  {#1}\edef \uq@curr@file {\...
+l.119 	\includegraphics[width=\textwidth]{tela}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Ginclude@graphics ...e \expandafter {\@curr@file 
+                                                  }}\expandafter \filename@p...
+l.119 	\includegraphics[width=\textwidth]{tela}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \unquote@name 
+                              
+l.119 	\includegraphics[width=\textwidth]{tela}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.119 	\includegraphics[width=\textwidth]{tela}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.119 	\includegraphics[width=\textwidth]{tela}
+                                               
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `tela' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.119 	\includegraphics[width=\textwidth]{tela}
+                                               
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 123--124
 
  []
@@ -359,6 +640,76 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--126
  []
 
 [5]
+! Undefined control sequence.
+\Ginclude@graphics ...\Ginput@path \set@curr@file 
+                                                  {#1}\edef \uq@curr@file {\...
+l.131 	\includegraphics[width=\textwidth]{micro}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+\Ginclude@graphics ...e \expandafter {\@curr@file 
+                                                  }}\expandafter \filename@p...
+l.131 	\includegraphics[width=\textwidth]{micro}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \unquote@name 
+                              
+l.131 	\includegraphics[width=\textwidth]{micro}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.131 	\includegraphics[width=\textwidth]{micro}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.131 	\includegraphics[width=\textwidth]{micro}
+                                                
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `micro' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.131 	\includegraphics[width=\textwidth]{micro}
+                                                
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 136--137
 
  []
@@ -373,7 +724,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 140--141
 
  []
 
-
+[6]
 Underfull \hbox (badness 10000) in paragraph at lines 142--143
 
  []
@@ -383,7 +734,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 146--147
 
  []
 
-[6]
+
 Underfull \hbox (badness 10000) in paragraph at lines 148--149
 
  []
@@ -393,12 +744,79 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
+[7]
+! Undefined control sequence.
+\Ginclude@graphics ...\Ginput@path \set@curr@file 
+                                                  {#1}\edef \uq@curr@file {\...
+l.154 	\includegraphics[width=\textwidth]{app}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! Undefined control sequence.
+\Ginclude@graphics ...e \expandafter {\@curr@file 
+                                                  }}\expandafter \filename@p...
+l.154 	\includegraphics[width=\textwidth]{app}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-[7] (proyecto_final.bbl [8])
+! Undefined control sequence.
+<recently read> \unquote@name 
+                              
+l.154 	\includegraphics[width=\textwidth]{app}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.154 	\includegraphics[width=\textwidth]{app}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Undefined control sequence.
+<recently read> \quote@name 
+                            
+l.154 	\includegraphics[width=\textwidth]{app}
+                                              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: File `app' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.154 	\includegraphics[width=\textwidth]{app}
+                                              
+I could not locate the file with any of these extensions:
+.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+(proyecto_final.bbl [8])
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 173.
- [9]
+ [9] [10]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 173.
  (proyecto_final.aux
 LaTeX Info: Redefining \. on input line 30.
@@ -408,29 +826,36 @@ Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 173.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 173.
 Package rerunfilecheck Info: File `proyecto_final.out' has not changed.
 (rerunfilecheck)             Checksum: 76496BD17DF3D00C26AF759C9AA9E6B3;257.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 173.
  ) 
 Here is how much of TeX's memory you used:
- 6139 strings out of 492891
- 89753 string characters out of 3133345
- 196414 words of memory out of 3000000
+ 6155 strings out of 492891
+ 89829 string characters out of 3133345
+ 195401 words of memory out of 3000000
  9978 multiletter control sequences out of 15000+200000
  9321 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 28i,9n,31p,1359b,469s stack positions out of 5000i,500n,10000p,200000b,50000s
-<F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><F:/Program Files/MiKTe
-X 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/amsfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1
-/public/amsfonts/cm/cmr12.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmr17.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/c
-m/cmr7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb
-><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/Pro
-gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
-Output written on proyecto_final.pdf (9 pages, 183332 bytes).
+ 28i,9n,31p,1359b,463s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{table.2} has been referenced but does not exist, 
+replaced by a fixed one
+
+<F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><F:/Prog
+ram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><F:/Program File
+s/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><F:/Program Files/MiKTeX 
+2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><F:/Program Files/MiKTeX 2.9/font
+s/type1/public/amsfonts/cm/cmr10.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/p
+ublic/amsfonts/cm/cmr12.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmr17.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/
+cmr7.pfb><F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr9.pfb><
+F:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb><F:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmtt9.pfb>
+Output written on proyecto_final.pdf (10 pages, 183893 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 37 named destinations out of 1000 (max. 500000)
+ 181 PDF objects out of 1000 (max. 8388607)
+ 39 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
